@@ -6,6 +6,9 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use App\Models\BelongsTo;
+use App\Models\BelongsToMany;
+use App\Models\HasMany;
 
 class User extends Authenticatable
 {
